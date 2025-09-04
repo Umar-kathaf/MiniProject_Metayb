@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.regsForm {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.regsForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.gender {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+.gender label {
+  font-weight: normal;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

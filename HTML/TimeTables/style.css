@@ -1,0 +1,67 @@
+  body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        text-align: center;
+        color: #fff;
+        padding: 12px;
+    }
+
+    th {
+        background-color: #DC143C;
+        color: white;
+
+    }
+    td:hover {
+        background-color: #eaf4fc;
+    }
+    .time {
+        background-color: #FFF8DC;
+        color: #000;    
+    }
+    .math {
+        background-color: #00008B;
+    }
+    .english {
+        background-color: #8B008B;
+    }
+    .music {
+        background-color: #FF1493;
+    }
+    .history {
+        background-color: #228B22;
+    }
+    .science {
+        background-color: #FFA500;
+    }
+    .computer {
+        background-color: #808000;
+    }
+    .sports {
+        background-color: #48D1CC;
+    }
+    .art {
+        background-color: #800000;
+    }
+    .geography {
+        background-color: #778899;
+    }
+    .lunch {
+        color: #000;
+    }

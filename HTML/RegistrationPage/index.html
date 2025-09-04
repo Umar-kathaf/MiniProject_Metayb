@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="regsForm">
+        <h1>Registration Form</h1>
+        <form action="">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter first name" name="firstName" required> <br>
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter last name" name="lastName" required> <br>
+                </div>
+                <div class="form-group">
+                    <label>Mobile No</label>
+                    <input type="number" placeholder="Enter mobile number" name="mobile" required><br>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter email" name="email" required><br>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter password" name="password" required><br>
+                </div>
+                <div class="form-group">
+                    <label>Confirm password</label>
+                    <input type="password" placeholder="Enter confirm password" name="confirm" required><br>
+                </div>
+                
+                <div class="form-group">
+                    <label>City</label>
+                    <select name="" id="">
+                        <option value="">Chennai</option>
+                        <option value="">Tirunelveli</option>
+                        <option value="">Kanyakumari</option>
+                        <option value="">Nagercoil</option>
+                        <option value="">Tiruchy</option>
+                        <option value="">Madurai</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Country</label>
+                    <select name="" id="" required>
+                        <option value="">United State of America</option>
+                        <option value="">Brazil</option>
+                        <option value="">Argentina</option>
+                        <option value="">Portugal</option>
+                        <option value="">United Kingdom</option>
+                        <option value="">Austria</option>
+                        <option value="">Iran</option>
+                        <option value="">Dubai</option>
+                        <option value="">India</option>
+                        <option value="">China</option>
+                        <option value="">Australia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Gender</label><br>
+                <div class="gender">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
