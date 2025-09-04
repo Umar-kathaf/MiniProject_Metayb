@@ -24,7 +24,7 @@ export const CartProvider = ({ children}) => {
       loadCart();
     }
   }, [userId]);
-
+  // Load cart function
   const loadCart = async () => {
     try {
       const res = await getCartAPI(userId);
